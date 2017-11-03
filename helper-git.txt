@@ -7,3 +7,22 @@ git clone https://github.com/candid7/test.git
 ------------- INSTALL -------------------
 git init
 git status
+git add (. | file)
+
+git remote add origin https://github.com/candid7/test.git
+git push -u origin master
+
+git fetch origin
+
+# Update the remote-tracking branches for the repository you cloned from, then merge one of them into your current branch:
+git pull
+git pull origin
+
+# Merge into the current branch the remote branch next:
+git pull origin next
+git fetch origin
+git merge origin/next
+
+
+Other
+https://git-scm.com/docs/git-fetch
