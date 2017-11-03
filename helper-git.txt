@@ -1,0 +1,9 @@
+------------- CLONE --------------------
+git clone https://github.com/candid7/test.git
+
+
+
+
+------------- INSTALL -------------------
+git init
+git status
